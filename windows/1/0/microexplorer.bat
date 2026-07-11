@@ -14,7 +14,7 @@ echo MM      MM       EEEEEE
 echo MMMM  MMMM       EE
 echo MM  MM  MM       EEEEEE
 echo MM      MM  ###  EE      ###
-echo MM      MM  ###  EEEEEE  ###      v 1
+echo MM      MM  ###  EEEEEE  ###      v 1.0
 echo.
 timeout /t 1 /nobreak >nul
 echo Current: %cd%
