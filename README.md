@@ -4,7 +4,7 @@ microexplorer is a programm for a emergency situations or for a people that dont
 
 website (on russian): https://microexplorer.website.yandexcloud.net/
 
-to make linux version start you need to execute ```chmod +x microexplorer.sh``` then to start it you need to execute ```./microexplorer```
+to make linux version start you need to execute ```chmod +x microexplorer.sh``` then to start it you need to execute ```./microexplorer.sh```
 
 
 ## 1.0
