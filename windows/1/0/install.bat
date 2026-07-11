@@ -6,7 +6,7 @@ set /p "folderbyuser=Name of a folder?: "
 if not exist "%folderbyuser%" mkdir "%folderbyuser%"
 cd /d "%folderbyuser%"
 echo Installing... (from website of project)
-curl -L "https://microexplorer.website.yandexcloud.net/microexplorer.bat" -o "microexplorer.bat"
+curl -L "https://raw.githubusercontent.com/fkorobov6-ship-it/microexplorer/refs/heads/main/windows/1/0/microexplorer.bat" -o "microexplorer.bat"
 if errorlevel 1 ( echo Error & pause >nul & exit /b )
 echo Continuing...
 echo if you see an error close installer, if all is ok then continue setup by pressing any key.
