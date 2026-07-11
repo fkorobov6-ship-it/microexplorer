@@ -9,6 +9,12 @@ website (on russian): https://microexplorer.website.yandexcloud.net/
 
 ```
 project created
+
+
+WARNING: for linux version you may needed to install nano
+sudo apt install nano        # Debian/Ubuntu
+sudo dnf install nano        # Fedora
+sudo pacman -S nano          # Arch
 ```
 
 ## 1.1
@@ -16,6 +22,12 @@ project created
 ```
 1. added function to delete files
 2. added function to download files
+
+
+WARNING: for linux version you may be needed to install curl
+sudo apt install curl        # Debian/Ubuntu
+sudo dnf install curl        # Fedora
+sudo pacman -S curl          # Arch
 ```
 
 
