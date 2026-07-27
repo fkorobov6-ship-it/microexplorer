@@ -29,19 +29,19 @@ show_banner() {
 show_help() {
     echo ""
     echo "Available commands:"
-    echo "  /back                 - go to previous directory"
-    echo "  /create file NAME     - create a new file"
-    echo "  /create folder NAME   - create a new folder"
-    echo "  /open FILE            - open FILE with default app"
-    echo "  /edit [FILE]          - edit FILE with nano (waits for close)"
-    echo "  /delete FILE          - delete a file"
+    echo "  /back - go to previous directory"
+    echo "  /create file NAME - create a new file"
+    echo "  /create folder NAME - create a new folder"
+    echo "  /open FILE - open FILE with default app"
+    echo "  /edit [FILE] - edit FILE with nano (waits for close)"
+    echo "  /delete FILE - delete a file"
     echo "  /delete folder FOLDER - delete a folder and all its contents"
-    echo "  /download URL [FILE]  - download file from the Internet"
-    echo "  /cd PATH              - change directory (e.g., /cd /home)"
-    echo "  /help                 - show this help"
-    echo "  /exit                 - quit"
+    echo "  /download URL [FILE] - download file from the Internet"
+    echo "  /cd PATH - change directory (e.g., /cd /home)"
+    echo "  /help - show this help"
+    echo "  /exit - quit"
     echo ""
-    echo "  (type folder name without slash to go there)"
+    echo " (type folder name without slash to go there)"
     echo ""
     read -p "Press Enter to continue..."
 }
@@ -104,10 +104,8 @@ download_file() {
 # Основной цикл
 while true; do
     show_banner
-
     echo "Commands: /back, /create, /open, /edit, /delete, /download, /cd, /help, /exit"
     echo ""
-
     read -p "> " input
 
     # Обработка команд
@@ -233,6 +231,5 @@ while true; do
             fi
             ;;
     esac
-
     sleep 1
 done
