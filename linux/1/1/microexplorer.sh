@@ -13,11 +13,11 @@ prev_dir=""
 # Функция отображения баннера
 show_banner() {
     clear
-    echo -e "${GREEN}MM MM     EEEEEE${NC}"
-    echo -e "${GREEN}MMMM MMMM  EE${NC}"
-    echo -e "${GREEN}MM MM MM   EEEEEE${NC}"
-    echo -e "${GREEN}MM MM ###  EE ###${NC}"
-    echo -e "${GREEN}MM MM ###  EEEEEE ###  v 1.1${NC}"
+    echo -e "${GREEN}MM      MM      EEEEEE${NC}"
+    echo -e "${GREEN}MMMM  MMMM      EE${NC}"
+    echo -e "${GREEN}MM  MM  MM      EEEEEE${NC}"
+    echo -e "${GREEN}MM      MM ###  EE ###${NC}"
+    echo -e "${GREEN}MM      MM ###  EEEEEE ###  v 1.1${NC}"
     echo ""
     sleep 0.5
     echo -e "${YELLOW}Current: $(pwd)${NC}"
