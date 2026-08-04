@@ -34,3 +34,5 @@ sudo pacman -S curl          # Arch
 email: korobov_fedor@inbox.ru
 
 deltachat: https://i.delta.chat/#122C5FEE1BD2CC2968A1961B8CEAED6281DD1041&v=3&i=tqVT2pPceN4Jba5nmElyA59O&s=q4Y9n5LAFX52LOtc6HRFZy9d&a=korobov_fedor%40inbox.ru&n=fkorobov-ship-it
+
+# WARNING: dont touch "newversion", it is for new option
