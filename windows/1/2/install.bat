@@ -8,8 +8,9 @@ cd /d "%folderbyuser%"
 echo Installing... (from repo of project)
 curl -L "https://raw.githubusercontent.com/fkorobov6-ship-it/microexplorer/refs/heads/main/windows/1/2/microexplorer.bat" -o "microexplorer.bat"
 if errorlevel 1 ( echo Error & pause >nul & exit /b )
+curl -L "https://raw.githubusercontent.com/fkorobov6-ship-it/microexplorer/refs/heads/main/windows/1/2/update.bat" -o "microexplorer.bat"
+if errorlevel 1 ( echo Error & pause >nul & exit /b )
 echo Continuing...
-echo if you see an error close installer, if all is ok then continue setup by pressing any key.
 pause >nul
 set "INSTALL_DIR=%CD%"
 setx PATH "%PATH%;%CD%"
