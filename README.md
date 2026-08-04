@@ -35,11 +35,7 @@ sudo pacman -S curl          # Arch
 ```
 1. you can now update with "update.bat"!
 
-
-WARNING: for linux version you may be needed to install curl
-sudo apt install curl        # Debian/Ubuntu
-sudo dnf install curl        # Fedora
-sudo pacman -S curl          # Arch
+(srry linux user but i think you not lazy)
 ```
 
 
