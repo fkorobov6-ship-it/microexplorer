@@ -5,7 +5,7 @@ cd /d "%selectedbyuser%"
 set /p "folderbyuser=Name of a folder?: "
 if not exist "%folderbyuser%" mkdir "%folderbyuser%"
 cd /d "%folderbyuser%"
-echo Installing... (from website of project)
+echo Installing... (from repo of project)
 curl -L "https://raw.githubusercontent.com/fkorobov6-ship-it/microexplorer/refs/heads/main/windows/1/2/microexplorer.bat" -o "microexplorer.bat"
 if errorlevel 1 ( echo Error & pause >nul & exit /b )
 echo Continuing...
