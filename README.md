@@ -30,7 +30,7 @@ sudo dnf install curl        # Fedora
 sudo pacman -S curl          # Arch
 ```
 
-## 1.1
+## 1.2
 
 ```
 1. you can now update with "update.bat"!
