@@ -35,7 +35,7 @@ sudo pacman -S curl          # Arch
 ```
 1. you can now update with "update.bat"!
 
-(srry linux user but i think you not lazy)
+(srry linux users but i think you not lazy)
 ```
 
 
